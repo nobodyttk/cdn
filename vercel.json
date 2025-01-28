@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/*.css",  // Aplica a regra a todos os arquivos CSS
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
