@@ -1,8 +1,4 @@
 # netlify.toml
-[build]
-  command = "npm run build"  # Comando para construir o projeto
-  publish = "out"            # Pasta onde o Next.js gera os arquivos estáticos (ou "build" para outros frameworks)
-
 [[headers]]
   for = "/*.css"  # Aplica a regra a todos os arquivos CSS
   [headers.values]
