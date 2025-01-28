@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/*.css",  // Aplica a regra a todos os arquivos CSS
+      "source": "/*.css",  
       "headers": [
         {
           "key": "Cache-Control",
